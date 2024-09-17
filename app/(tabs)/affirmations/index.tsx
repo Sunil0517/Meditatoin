@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <View className="flex-1">
       <LinearGradient
-        colors={["#2e1f58", "#54426b", "#a790af"]}
+        colors={["#161b2e", "#0a4d4a", "#766e67"]}
         className="px-5"
         style={{ paddingTop: insets.top }}
       >

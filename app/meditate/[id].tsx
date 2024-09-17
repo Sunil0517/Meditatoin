@@ -19,7 +19,7 @@ const Page = () => {
   const [isMeditating, setMeditating] = useState(false);
   const [audioSound, setSound] = useState<Audio.Sound>();
   const [isPlayingAudio, setPlayingAudio] = useState(false);
-
+ 
   useEffect(() => {
     let timerId: NodeJS.Timeout;
     if (secondsRemaining === 0) {
